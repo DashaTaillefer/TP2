@@ -1,0 +1,228 @@
+/* Styles pour toutes les pages */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    background-color: darkkhaki;
+    font-family: 'Libre Baskerville', serif;
+    overflow-x: hidden;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+h3 {
+    padding-bottom: 1%;
+}
+
+.lien:hover {
+    font-size: 1.05rem;
+}
+
+.menu {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+i {
+    padding: 1rem;
+}
+
+.slogan {
+    margin-top: 0.9rem;
+    font-size: 1rem;
+}
+
+nav ul {
+    margin-left: 23rem;
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+nav ul li {
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer p {
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+/*Styles pour la page index.html */
+
+#image-accueil {
+    height: 400px;
+    margin-left: 25%;
+}
+
+#légende-image-accueil {
+    position: relative;
+    right: 30%;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+#image-chapeau {
+    height: 350px;
+}
+
+#légende-image-chapeau {
+    position: relative;
+    left: 20%;
+    font-size: 0.8rem;
+}
+
+#image-foulard {
+    height: 350px;
+}
+
+#légende-image-foulard {
+    position: relative;
+    left: 16%;
+    font-size: 0.8rem;
+}
+
+#image-mitaines {
+    height: 400px;
+}
+
+#légende-image-mitaines {
+    position: relative;
+    left: 3.5%;
+    font-size: 0.8rem;
+}
+
+#image-chandails {
+    height: 450px;
+}
+
+#légende-image-chandails {
+    position: relative;
+    left: 3.5%;
+    font-size: 0.8rem;
+}
+
+#image-accessoires {
+    height: 500px;
+}
+
+#légende-image-accessoires {
+    position: relative;
+    left: 7%;
+    font-size: 0.8rem;
+}
+
+#bas-de-page {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+#bas-de-page p {
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+/*Styles pour la page contact.html */
+
+#image-contact {
+    height: 400px;
+}
+
+#légende-image-contact {
+    position: relative;
+    left: 13.5%;
+    font-size: 0.8rem;
+}
+
+#info-contact {
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+textarea {
+    width:600px; 
+    height:200px;
+}
+
+table {
+    position: relative;
+    left:1%;
+}
+
+table, th, td {
+    border: solid 1px green;
+}
+
+/*Styles pour la page carriere.html */
+
+#image-groupe {
+    height: 400px;
+}
+
+#légende-image-groupe {
+    position: relative;
+    left: 25%;
+    font-size: 0.8rem;
+}
+
+#image-groupe-2 {
+    height: 400px;
+}
+
+#légende-image-groupe-2 {
+    position: relative;
+    left: 27%;
+    font-size: 0.8rem;
+}
+
+#image-tricoteuse {
+    height: 400px;
+}
+
+#légende-image-tricoteuse {
+    position: relative;
+    left: 25.5%;
+    font-size: 0.8rem;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+#image-fin {
+    height: 350px;
+}
+
+#légende-image-fin {
+    position: relative;
+    font-size: 0.8rem;
+    left: 22%;
+}
